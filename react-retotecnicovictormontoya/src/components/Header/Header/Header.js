@@ -1,4 +1,5 @@
-import LogoBrand from '../../assets/img/Logo-web-DIS.png';
+import './Header.scss';
+import LogoBrand from '../../../assets/img/Logo-web-DIS.png';
 
 export const Header = () => {
     return(

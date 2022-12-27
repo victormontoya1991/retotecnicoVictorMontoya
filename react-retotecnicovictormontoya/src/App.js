@@ -1,10 +1,14 @@
 import './App.scss';
-import { Header } from './components/Header/Header';
+import { Header } from './components/Header/Header/Header';
+import { Main } from './components/Main/Main';
 
 
 function App() {
   return (
-    <Header />
+    <div className='ListContainer'>
+      <Header />
+      <Main />
+    </div>
   );
 }
 
